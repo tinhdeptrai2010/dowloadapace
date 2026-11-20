@@ -1,0 +1,39 @@
+{
+  "id": "/",
+  "name": "Apace Social Network",
+  "short_name": "Apace",
+  "description": "Mạng xã hội Apace kết nối bạn bè, chia sẻ hình ảnh, nhật ký 24h và âm nhạc trực tuyến.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#ffffff",
+  "theme_color": "#3b82f6",
+  "lang": "vi-VN",
+  "dir": "ltr",
+  "categories": [
+    "social",
+    "entertainment",
+    "photo"
+  ],
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/vite.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
