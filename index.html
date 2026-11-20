@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f4f7fb" />
+    <meta name="description" content="Tải Apace cho Windows và Android." />
+    <title>Tải Apace</title>
+    <style>
+      :root { color-scheme: light; font-family: Inter, "Segoe UI", Arial, sans-serif; color: #14213d; background: #f4f7fb; }
+      * { box-sizing: border-box; }
+      body { min-height: 100vh; margin: 0; display: grid; place-items: center; padding: 32px 18px; background: radial-gradient(circle at top left, #e6f1ff, transparent 38%), #f4f7fb; }
+      main { width: min(760px, 100%); }
+      .brand { display: flex; align-items: center; gap: 12px; margin-bottom: 26px; color: #1877f2; font-size: 22px; font-weight: 800; letter-spacing: -.04em; }
+      .mark { display: grid; width: 42px; height: 42px; place-items: center; border-radius: 14px; color: white; background: linear-gradient(135deg, #1877f2, #10b981); font-size: 25px; }
+      .panel { padding: clamp(24px, 6vw, 52px); border: 1px solid #e1e8f0; border-radius: 28px; background: rgba(255,255,255,.94); box-shadow: 0 24px 70px rgba(25, 54, 91, .09); }
+      h1 { margin: 0; font-size: clamp(30px, 5vw, 44px); letter-spacing: -.05em; }
+      .intro { margin: 12px 0 30px; color: #64748b; line-height: 1.65; }
+      .downloads { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 14px; }
+      .card { display: flex; flex-direction: column; align-items: flex-start; min-height: 210px; padding: 22px; border: 1px solid #e6ebf2; border-radius: 20px; background: #fff; }
+      .platform { color: #1877f2; font-size: 12px; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
+      h2 { margin: 9px 0 5px; font-size: 21px; }
+      .meta { margin: 0 0 22px; color: #718096; font-size: 13px; }
+      .button { display: inline-flex; align-items: center; justify-content: center; gap: 8px; width: 100%; margin-top: auto; padding: 12px 16px; border-radius: 12px; color: #fff; background: #1877f2; font-weight: 700; text-decoration: none; transition: transform .15s, background .15s; }
+      .button:hover { transform: translateY(-1px); background: #0d65d9; }
+      .button:focus-visible { outline: 3px solid #93c5fd; outline-offset: 3px; }
+      footer { margin-top: 20px; color: #8290a3; font-size: 12px; text-align: center; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="brand"><span class="mark">a</span><span>apace</span></div>
+      <section class="panel" aria-labelledby="title">
+        <h1 id="title">Tải Apace</h1>
+        <p class="intro">Chọn phiên bản phù hợp với thiết bị của bạn.</p>
+        <div class="downloads">
+          <article class="card">
+            <span class="platform">Windows · x64</span>
+            <h2>Apace cho Windows</h2>
+            <p class="meta">Bộ cài đặt · 1.9 MB</p>
+            <a class="button" href="./Apace-Setup.exe" download>Tải cho Windows</a>
+          </article>
+          <article class="card">
+            <span class="platform">Android · Universal</span>
+            <h2>Apace cho Android</h2>
+            <p class="meta">APK · 36.2 MB</p>
+            <a class="button" href="./Apace-Android.apk" download>Tải APK</a>
+          </article>
+        </div>
+      </section>
+      <footer>Apace · Trang tải ứng dụng</footer>
+    </main>
+  </body>
+</html>
